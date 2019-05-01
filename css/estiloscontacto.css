@@ -1,0 +1,202 @@
+ul{
+	margin: 0;
+	padding: 0; 
+}
+
+.boton1{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #f4f4f4;
+}
+
+/* Encabezado*/
+
+header #marca{
+	float: left;
+}
+
+header #marca h1{
+	margin: 0; 
+	width 100%
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+
+/*Cabecera con imagen*/
+
+#cabecera{
+	min-height: 100%;
+	background:url('../images/imagen1.png') no-repeat 0 -400px;
+	background-position: center;
+	background-attachment: all;
+	text-align: center;
+	color: #fff;
+	width:100%;
+	height:100%
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+#cabecera p{
+	font-size: 20px;
+}
+
+/* Formulario boletin*/
+
+#boletin{
+	padding: 15px;
+	color: #663399;
+	background: #24282b;
+	
+}
+
+#boletin h1{
+	float: left;
+}
+
+#boletin form{
+	float: right;
+	margin-top: 15px;
+}
+
+#boletin input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+/*Cajas*/
+#cajas{
+	margin-top: 10%;
+	margin-right:10%;
+}
+#cajas .caja{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}  
+
+#cajas .caja img{
+	width: 90px;
+	margin-top: 20px;
+}
+
+#cajas .caja h1{
+	text-align: center;
+}
+/* Lateral*/
+
+aside#lateral{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+.oscuro{
+	text-align: center;
+	width: 50%;
+	float: right;
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.oscuroa{
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+	background-color: #35424a;
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+
+/*Main-col */
+
+article#main-col{
+	float: left;
+	width: 68.5%;
+}
+
+/* Servicios */
+
+ul#servicios li{
+	list-style: none;
+	padding: 20px;
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+	background-color: #e6e6e6;
+}
+
+/* Footer o pie de pagina*/
+
+
+/* Formulario de contacto*/
+
+input, textarea{
+	width: 100%;
+	height: 35px;
+	border: 1px solid gray;
+	margin-bottom: 5px;
+}
+textarea{
+	height: 120px;
+}
+
+input[type="submit"]{
+	background-color: #e8491d;
+	color: #fff;
+}
+
+/* Media Queries Response*/
+
+@media(max-width: 768px){
+	header #marca,
+	header nav,
+	header nav li,
+	#boletin h1,
+	#boletin form,
+	#cajas .caja,
+	article#main-col,
+	aside#lateral{
+		float: none;
+		text-align: center;
+		width: 100%
+	}
+	header{
+		padding-bottom: 20px;
+	}
+
+	#boletin h1{
+		margin-top: 40px,
+	}
+
+	#boletin button{
+		display: block;
+		width: 100%
+	}
+
+	#boletin form input[type="email"]{
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	input, textarea{
+		width: 98%;
+	}
+}
