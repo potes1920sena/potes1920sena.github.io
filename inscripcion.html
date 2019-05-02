@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>My home</title>
+	<meta charset-"UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/estiloscontacto.css">
+</head>
+<body>
+  <header>
+	<div class="contenedor">
+		<h1 class="icon-home">Alquila Ya</h1>
+		<input type="checkbox" id="menu-bar">
+		<label class="icon-listado" for="menu-bar"></label>
+	 <nav class="menu">
+      <a class="actual" href="index.html">Inicio</a>
+      <a href="alquila.html">Alquilar</a>
+      <a href="compra.html">Comprar</a>
+      <a href="inscripcion.html">Inscripción</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+	</div>
+  </header>
+  
+  <div class="caja">
+      <article id="main-col"> 
+        <h1>Envianos Tu Consulta</h1>
+        <form action="conectarse.php" method="POST">
+          <label>Nombre</label>
+          <input type="text" name="nombre" placeholder="Ingresa tu nombre" required="Requiere un nombre de usuario">
+          <br>
+          <label>Correo</label>
+          <input type="text" name="correo" placeholder="Ingresa@correo.com" required="Requiere un correo">
+          <br>
+          <label>Mensaje</label>
+          <input type="text" name="mensaje">
+          <br>      
+          <br>
+          <input type="submit" value="Enviar">
+        </form>
+      </article>
+    </div>
+  <footer>
+  	<div class="contenedor">
+  		<p class="copy">My home &copy 2019</p>
+  		<div class="sociales">
+  			<a class="icon-facebook-circled" href="#"></a>
+  			<a class="icon-twitter-circled" href="#"></a>
+  			<a class="icon-gmail" href="#"></a>
+  		</div> 		
+  	</div>
+  </footer>
+</body>
+</html>
